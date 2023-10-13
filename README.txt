@@ -1,4 +1,4 @@
-Unveiling the mechanisms of nephrotoxic compounds-induced nephrotoxicity through toxicological network analysis
+Unveiling the mechanisms of nephrotoxicity caused by nephrotoxic compounds using toxicological network analysis
 
 *PIPLINE FOR THE  TOXICOLOGICAL NETWORK ANALYSIS*
 
@@ -29,7 +29,7 @@ The Compound targets or Disease genes must be arranged in one column in the form
 (5) Compound targets and disease genes belonging to significantly distributed modules are organized into Compound targets and Disease genes.txt (eg: Matrine-Tubular Necrosis.txt).
 (6) Python localization.py is employed [see #COMMAND(4)#] to project compound targets and disease genes belonging to significantly distributed modules into the human interactome to construct compound targets-disease genes networks. 
 (7) Only when the p-value and the lcc size S of the networks are less than 0.05 and significantly greater than the random expected LCC [rand], respectively, will the networks be retained.
-(8) For the significantly distributed networks, nodes in the core gene set with dis ab ¡Ü 1 are subject to further GO annotations and KEGG functional enrichment analysis.
+(8) For the significantly distributed networks, nodes in the core gene set with dis ab Â¡Ãœ 1 are subject to further GO annotations and KEGG functional enrichment analysis.
 
 #REFERENCE#
 (1) Menche, J, Sharma, A, Kitsak, M, Ghiassian, SD, Vidal, M, Loscalzo, J, et al. (2015). Disease networks. Uncovering disease-disease relationships through the incomplete interactome. Science 347: 1257601.
